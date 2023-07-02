@@ -20,7 +20,11 @@ export default defineUserConfig({
     lastUpdatedText: '',
     navbar: [
       {
-        text: 'Contact',
+        text: '首页',
+        link: '/'
+      }，
+      {
+        text: '联系',
         children: [
           { text: 'GitHub', link: 'https://github.com/recoluan' },
         ]
@@ -38,7 +42,11 @@ export default defineUserConfig({
         // hideComments: true
       },
     },
-    autoAddCategoryToNavbar: true
+    autoAddCategoryToNavbar: {
+      location: 1,
+      categoryText: '分类',
+      tagText: '标签'
+    }
   }),
   lang: 'zh-CN',
 })
