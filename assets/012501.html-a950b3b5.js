@@ -1,0 +1,1 @@
+import{_ as t,o as _,c as o,a as e}from"./app-577c4561.js";const s={},n=e("p",null,"在内心留有一块空间，不为任何人，不与他人言。",-1),c=e("p",null,"喜悦放在里面，失落也放在里面；自豪放在里面，自卑也放在里面。",-1),l=e("p",null,"你会发现，你真的很强大。",-1),a=e("p",null,"喜形于色，又怎么能强大你的灵魂。",-1),r=[n,c,l,a];function d(i,u){return _(),o("div",null,r)}const p=t(s,[["render",d],["__file","012501.html.vue"]]);export{p as default};
