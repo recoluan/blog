@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import { recoTheme } from 'vuepress-theme-reco'
+import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   title: "午后南杂",
@@ -9,6 +10,7 @@ export default defineUserConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
   ],
+  bundler: viteBundler({}),
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
     logo: '/head.png',
