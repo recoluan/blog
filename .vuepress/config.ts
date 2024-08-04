@@ -12,7 +12,6 @@ export default defineUserConfig({
   ],
   bundler: viteBundler({}),
   theme: recoTheme({
-    style: '@vuepress-reco/style-default',
     logo: '/head.png',
     // logo: '/hero_black.png',
     author: 'reco_luan',
