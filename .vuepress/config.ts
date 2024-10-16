@@ -18,7 +18,6 @@ export default defineUserConfig({
     authorAvatar: '/head.png',
     docsRepo: 'https://github.com/recoluan/recoluan.github.io',
     docsBranch: 'gh-pages-source',
-    lastUpdatedText: '',
     navbar: [
       {
         text: '首页',
@@ -47,7 +46,21 @@ export default defineUserConfig({
       location: 1,
       categoryText: '分类',
       tagText: '标签'
-    }
+    },
+    tip: '提示',
+    info: '信息',
+    danger: '危险',
+    warning: '警告',
+    details: '详情',
+    tagsText: '标签',
+    backToHome: '返回首页',
+    categoriesText: '分类',
+    catalogTitle: '页面导航',
+    selectLanguageText: '语言',
+    editLinkText: '编辑当前页面',
+    lastUpdatedText: '最后更新时间',
+    selectLanguageName: '简体中文',
+    notFound: '哇哦，没有发现这个页面！',
   }),
   lang: 'zh-CN',
 })
