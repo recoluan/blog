@@ -16,6 +16,6 @@
   "dependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "vuepress": "2.0.0-rc.14",
-    "vuepress-theme-reco": "2.0.0-rc.21"
+    "vuepress-theme-reco": "2.0.0-rc.22"
   }
 }
