@@ -38,6 +38,10 @@ export default defineUserConfig({
       {
         icon: 'IconRecoTheme',
         link: 'https://theme-reco.vuejs.press' 
+      },
+      {
+        icon: 'IconRevili',
+        link: 'https://revili.recoluan.com' 
       }
     ],
     commentConfig: {
