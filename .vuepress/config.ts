@@ -30,6 +30,16 @@ export default defineUserConfig({
         ]
       }
     ],
+    socialLinks: [
+      {
+        icon: 'IconReco',
+        link: 'https://recoluan.com/' 
+      },
+      {
+        icon: 'IconRecoTheme',
+        link: 'https://theme-reco.vuejs.press' 
+      }
+    ],
     commentConfig: {
       type: 'valine',
       options: {
